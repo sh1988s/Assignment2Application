@@ -9,9 +9,11 @@
     <link href="/Content/normalize.css" rel="stylesheet" />
     <link href="/Content/bootstrap.css" rel="stylesheet" />
     <link href="/Content/Overrides.css" rel="stylesheet" />
+    <link href="Content/changes.css" rel="stylesheet" />
     <script src="/Scripts/jquery-1.9.1.js"></script>
     <script src="/Scripts/jquery.color-2.1.2.js"></script>
     <script src="/Scripts/bootstrap.js"></script>
+    <script src="/Scripts/myjs.js"></script>
     <asp:ContentPlaceHolder ID="CPHead" runat="server">
     </asp:ContentPlaceHolder>
 </head>

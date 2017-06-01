@@ -10,6 +10,12 @@
 
 <!-- Your HTML and JavaScript goes here -->
     <div id="tableData"></div>
-    <div id="graphData"></div>
+    <div id="graphData">
+        <div class="graph">
+            <div style="height:70%;background-color:red;"></div>
+            <div style="height:80%;background-color:yellow;"></div>
+        </div>
+
+    </div>
 
 </asp:Content>

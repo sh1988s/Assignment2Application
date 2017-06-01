@@ -93,6 +93,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\changes.css" />
     <Content Include="Content\Overrides.css" />
     <Content Include="Default.aspx" />
     <Content Include="Images\House.gif" />
@@ -107,6 +108,7 @@
     <Content Include="Scripts\jquery.color-2.1.2.min.js" />
     <Content Include="Scripts\jquery.color.svg-names-2.1.2.js" />
     <Content Include="Scripts\jquery.color.svg-names-2.1.2.min.js" />
+    <Content Include="Scripts\myjs.js" />
     <Content Include="Scripts\TweenMax.min.js" />
     <Content Include="Site.Master" />
     <Content Include="JsonData\MonthlyPowerInterruptions.json" />
