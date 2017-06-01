@@ -20,6 +20,7 @@
             //append  the xml
             $('#tableData').html(tablexml);
 
+
         },
         error: function () {
             // append the error msg if any errors in ajax call
