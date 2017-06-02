@@ -11,11 +11,12 @@
 <!-- Your HTML and JavaScript goes here -->
     <div id="tableData"></div>
     <div id="graphData">
-        <div class="graph">
-            <div style="height:70%;background-color:red;"></div>
-            <div style="height:80%;background-color:yellow;"></div>
-        </div>
+        <div class="div-year"><span>Year</span></div>
+        <div id="graphdiv" class="graph">            
+     
 
+        </div>
+        <div class="customer-text"> Customers Effected</div>
     </div>
 
 </asp:Content>
