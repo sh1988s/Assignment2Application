@@ -29,18 +29,20 @@
                 var barxml = "";
                 var widthpercent = '';
                 if (data[i].customers == maxValue) {
-                    widthpercent = '80%';
+                    widthpercent = '80';
                 }
                 else {
-                    widthpercent = (data[i].customers / maxValue).toFixed(2) * 80 + '%';
+                    widthpercent = (data[i].customers / maxValue).toFixed(2) * 80 ;
                 }
-                barxml += '<div><div class="graph-year"><span>' + data[i].year + '</span></div><div class="graph-bar" ' 
+                barxml += '<div><div class="graph-year"><span>' + data[i].year + '</span></div><div class="graph-bar" ' +
+                    //use hsl to indicate the color of the number
+                    'style="background-color:hsl(0,100%,' + (100-widthpercent)+'%);"'
                     +'><span class="graph-number">' +
                     data[i].customers + '</span></div></div>';
                 //add the bar to then end
                 $('#graphdiv').append(barxml);
                 //animate the bar
-                $('#graphdiv').children().last().find('.graph-bar').delay(100 * i).animate({ width: widthpercent }, "slow");
+                $('#graphdiv').children().last().find('.graph-bar').delay(100 * i).animate({ width: widthpercent+'%' }, "slow");
                 //show the number in 2 seconds
                 $('#graphdiv').children().last().find('.graph-number').delay(100 * i).show(2000);
             };
