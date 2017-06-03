@@ -30,6 +30,7 @@
     display: block;
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
+    font-size: 25px;
 }
 
 .div-year{
@@ -37,6 +38,21 @@
     float:left;
     width:5%;
 }
+
+.div-month {
+    height: 800px;
+    float: left;
+    width: 5%;
+}
+
+ .div-month span {
+        font-size: 25px;
+        position: relative;
+        top: 40%;
+        display: block;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+    }
 
 .graph-number {
     margin-top: 7px;
@@ -48,9 +64,27 @@
     position:relative;
     bottom:20px;
     display:inline-block;
+    width:7%;
+    text-align:right;
 }
 
 .customer-text {
     text-align: center;
 }
 
+#monthlygraph {
+    display:none;
+}
+
+.backbtn{
+    text-align:center;
+    margin-bottom:5px;
+}
+
+#yearlygraph{
+    padding-top:41px;
+}
+
+.customer-text {
+    font-size: 25px;
+}

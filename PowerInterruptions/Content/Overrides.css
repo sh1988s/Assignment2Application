@@ -39,7 +39,7 @@ form {
 .background {
     min-height: 600px;
     background-image: url('../Images/power-outage2.jpg');
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-position: top left;
     padding-bottom: 150px; /* this needs to be bigger than footer height*/
 }
